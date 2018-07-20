@@ -1,0 +1,22 @@
+{
+  "name": "proxy_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-proxy": "^1.17.0",
+    "module-alias": "^2.1.0",
+    "morgan": "^1.9.0",
+    "redis": "^2.8.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@config": "./config"
+  }
+}
